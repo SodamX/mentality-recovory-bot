@@ -3,4 +3,4 @@
 * 봇 초대는 [여기](https://discord.com/api/oauth2/authorize?client_id=1111591044048486461&permissions=8&scope=bot)서 할 수 있습니다!
 
 # 명령어
-* `!복구`명령어를 사용 가능합니다!
+* `!복구`명령어로 사용 가능합니다!
