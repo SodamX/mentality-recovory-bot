@@ -13,12 +13,12 @@ async def on_ready():
         for game in games:
             await client.change_presence(status = discord.Status.idle, activity = discord.Game(game))
             await asyncio.sleep(10)
-  await message(["mentality-recovory-bot", "멘탈 복구봇입니다!"])
+  await message(["cat-png", "고양이 짤 투척기."])
 
 @client.event
 async def on_message(message):
-    if message.content.startswith("!복구"):
-        embed = discord.Embed(title="[ 복구 ]", description="멘탈 복구 성공!", color=0xfead67)
+    if message.content.startswith("!고양이"):
+        embed = discord.Embed(title="[ 고양이 ]", description="고양이 짤입니다.", color=0xfead67)
         embed.set_image(url=random.choice(["https://cataas.com/cat", "https://cataas.com/cat/cute", "https://cataas.com/cat/gif"]))
         await message.channel.send(embed=embed)
 
